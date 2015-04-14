@@ -4,7 +4,7 @@ lock '3.4.0'
 set :application, 'designer'
 set :repo_url, 'git@github.com:ar1hur/node-test-project.git'
 
-server '54.75.144.152',
+server '54.216.92.97',
    user: 'ec2-user',
    roles: %w{web app},
    ssh_options: {
